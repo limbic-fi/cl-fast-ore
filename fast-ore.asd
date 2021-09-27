@@ -27,5 +27,7 @@
   :version #.(version-string)
   :author author
   :license "BSD 3-Clause"
-  :depends-on ("sigma")
+  :depends-on ("alexandria"
+               "cl-autowrap"
+               "sigma")
   :components ((:module "source" :components ((:file "main")))))
